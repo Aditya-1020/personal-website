@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Homepage</title>
+    <title>{{thought_title}}</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
-     </style>
+    </style>
 </head>
 <body>
     <nav>
@@ -18,14 +18,14 @@
     </nav>
     <div class="container">
         <div class="center-content">
-            <h1>Welcome to My Projects Page!</h1>
+            <h1>{{thought_title}}</h1>
         </div>
-        <p>Here’s where you can showcase your projects. Add a brief description below.</p>
-        <ul>
-            <li><a href="#">Project 1: Description or Link</a></li>
-            <li><a href="#">Project 2: Description or Link</a></li>
-            <li><a href="#">Project 3: Description or Link</a></li>
-        </ul>
+        <p><i>{{thought_date}}</i></p>
+        <p>{{thought_intro}}</p>
+        <hr>
+        <div class="thought-content">
+            {{thought_body}}
+        </div>
     </div>
     <footer>
         <a href="https://x.com/Poyntivector" target="_blank">Twitter (X)</a> |
