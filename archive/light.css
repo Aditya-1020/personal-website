@@ -4,21 +4,18 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: rgb(26, 24, 24); /* Background color */
-    color: #fff; /* Font color changed to white */
 }
 
 .kumbh-sans-light {
     font-family: "Kumbh Sans", sans-serif;
     font-weight: 300;
-    color: #fff; /* Ensuring light font class uses white */
 }
 
 .kumbh-sans-bold {
     font-family: "Kumbh Sans", sans-serif;
     font-weight: 700;
-    color: #e8dede; /* Ensuring bold font class uses white */
 }
+
 
 .container {
     width: 90%;
@@ -34,8 +31,8 @@ nav {
 
 nav a {
     margin: 0 10px;
-    color: #e8dede; /* Link color set to white */
-    text-decoration: none; /* Remove underline globally */
+    text-decoration: none;
+    color: #333;
 }
 
 .center-content {
@@ -51,17 +48,6 @@ footer {
     text-align: center;
     margin-top: 30px;
     padding: 10px 0;
-}
-
-footer a {
-    color: #2a6fb5; /* Light blue */
-    text-decoration: none; /* Remove underline */
-}
-
-/* Ensure no underline for links in Thoughts section but keep color */
-ul li a {
-    color: #2a6fb5; /* Link color set to white */
-    text-decoration: none; /* Remove underline for Thought links */
 }
 
 @media (max-width: 600px) {
